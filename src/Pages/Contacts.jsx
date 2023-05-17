@@ -7,7 +7,7 @@ import { removeContact } from "../Redux/action"
 
 const Contacts = () => {
 
-    const [isOpen, setIsOpen] = useState(false)
+    const [isOpen, setIsOpen] = useState(false);
     const [singleContact, setSingleContact] = useState({})
     let data = undefined
     const AllContacts = useSelector((store) => store.contacts)
